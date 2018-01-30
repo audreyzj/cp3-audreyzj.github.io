@@ -74,7 +74,8 @@ google_analytics: "UA-74990483-1"
 # Set these options as you need (For more information, check Jekyll's site)
 timezone: "Asia/Hong_Kong"
 markdown: kramdown
-highlighter: pygments  permalink: /blog/:title
+highlighter: pygments  
+permalink: /blog/:title
 paginate: 5
 paginate_path: blog/page:num/
 
