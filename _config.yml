@@ -12,7 +12,7 @@ gems:
 #baseurl: "/projectname"
 url: "https://audreyzj.github.io/audreyzj.github.io"
 enforce_ssl: /audreyzj.github.io
-baseurl: ""
+baseurl: "/audreyzj.github.io"
 
 # Title of website
 title: Jing's Home
