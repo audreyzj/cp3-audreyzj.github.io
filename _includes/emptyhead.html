@@ -7,25 +7,25 @@
     <meta name="author" content="{{ site.profile.name }}" />
     <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
         
-    <link rel="icon" href="{{ site.baseurl }}/assets/img/favicon.ico">
+    <link rel="icon" href="{{ "/" | relative_url }}/assets/img/favicon.ico">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }} - {{ site.description }}" href="{{ "/" | relative_url }}/feed.xml" />
 
     <!-- Bootstrap core CSS -->
-    <link href="{{ site.baseurl }}/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ "/" | relative_url }}/assets/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="{{ site.baseurl }}/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="{{ "/" | relative_url }}/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
     
-    <link href="{{ site.baseurl }}/assets/css/aboutme.css" rel="stylesheet">
-    <link href="{{ site.baseurl }}/assets/css/animate.css" rel="stylesheet">
-    <link href="{{ site.baseurl }}/assets/css/home.css" rel="stylesheet">
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/font-awesome.min.css">
+    <link href="{{ "/" | relative_url }}/assets/css/aboutme.css" rel="stylesheet">
+    <link href="{{ "/" | relative_url }}/assets/css/animate.css" rel="stylesheet">
+    <link href="{{ "/" | relative_url }}/assets/css/home.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ "/" | relative_url }}/assets/css/font-awesome.min.css">
     
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="{{ site.baseurl }}/assets//js/ie-emulation-modes-warning.js"></script>
+    <script src="{{ "/" | relative_url }}/assets//js/ie-emulation-modes-warning.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
